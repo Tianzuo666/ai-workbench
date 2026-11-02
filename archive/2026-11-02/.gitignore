@@ -1,0 +1,21 @@
+# Keep actual credentials and app runtime data out of future commits.
+.env
+.env.*
+!.env.example
+auth.json
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+**/sessions/
+**/archived_sessions/
+**/.codex-baseline/
+**/node_modules/
+**/__pycache__/
+local-only/
+*.zip

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Mentor"
+  short_description: "Personal step-by-step learning mentor"
+  default_prompt: "Use $learning-mentor to confirm my learning goal and continue from verified progress when available."
