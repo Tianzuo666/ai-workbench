@@ -1,0 +1,3 @@
+prefix_rule(pattern=["Start-Process", "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\微信\\微信.lnk"], decision="allow")
+prefix_rule(pattern=["git", "remote", "-v"], decision="allow")
+prefix_rule(pattern=["rg"], decision="allow")

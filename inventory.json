@@ -1,0 +1,1174 @@
+{
+  "format_version": 1,
+  "snapshot_date": "2026-11-02",
+  "intended_repository_visibility": "private",
+  "scope": "Selected user-level skills, instructions, file-based memories and seven known frontend project instruction sets. Not a complete account or application backup.",
+  "source_file_count": 128,
+  "redacted_file_count": 0,
+  "excluded": [
+    "auth.json and credentials",
+    "raw config.toml and environment variable values",
+    "sessions and archived_sessions",
+    "SQLite databases and WAL files",
+    "logs and caches",
+    "bundled/system/plugin skill caches",
+    "source .git and .codex-baseline metadata",
+    "application global state",
+    "business source code",
+    "automation definitions and unrelated app settings"
+  ],
+  "files": [
+    {
+      "path": "snapshot/home/AGENTS.md",
+      "source": "%USERPROFILE%/AGENTS.md",
+      "category": "global-rule",
+      "source_bytes": 2356,
+      "backup_bytes": 2356,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/AGENTS.md",
+      "source": "%USERPROFILE%/.codex/AGENTS.md",
+      "category": "global-rule",
+      "source_bytes": 3162,
+      "backup_bytes": 3162,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.claude/CLAUDE.md",
+      "source": "%USERPROFILE%/.claude/CLAUDE.md",
+      "category": "global-rule",
+      "source_bytes": 2599,
+      "backup_bytes": 2599,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/context-handoff/SKILL.md",
+      "source": "%USERPROFILE%/.codex/skills/context-handoff/SKILL.md",
+      "category": "codex-skill",
+      "source_bytes": 3822,
+      "backup_bytes": 3822,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/context-handoff/agents/openai.yaml",
+      "source": "%USERPROFILE%/.codex/skills/context-handoff/agents/openai.yaml",
+      "category": "codex-skill",
+      "source_bytes": 260,
+      "backup_bytes": 260,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/find-skills/SKILL.md",
+      "source": "%USERPROFILE%/.codex/skills/find-skills/SKILL.md",
+      "category": "codex-skill",
+      "source_bytes": 4635,
+      "backup_bytes": 4635,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/frontend-project-bootstrap/SKILL.md",
+      "source": "%USERPROFILE%/.codex/skills/frontend-project-bootstrap/SKILL.md",
+      "category": "codex-skill",
+      "source_bytes": 2397,
+      "backup_bytes": 2397,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/SKILL.md",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/SKILL.md",
+      "category": "codex-skill",
+      "source_bytes": 12636,
+      "backup_bytes": 12636,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/agents/openai.yaml",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/agents/openai.yaml",
+      "category": "codex-skill",
+      "source_bytes": 220,
+      "backup_bytes": 220,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/references/command-reference.md",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/references/command-reference.md",
+      "category": "codex-skill",
+      "source_bytes": 12584,
+      "backup_bytes": 12584,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/references/decisions.md",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/references/decisions.md",
+      "category": "codex-skill",
+      "source_bytes": 3174,
+      "backup_bytes": 3174,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/references/learner-profile.md",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/references/learner-profile.md",
+      "category": "codex-skill",
+      "source_bytes": 2136,
+      "backup_bytes": 2136,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/references/learning-log.md",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/references/learning-log.md",
+      "category": "codex-skill",
+      "source_bytes": 32556,
+      "backup_bytes": 32556,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/references/mentor-backlog.md",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/references/mentor-backlog.md",
+      "category": "codex-skill",
+      "source_bytes": 3667,
+      "backup_bytes": 3667,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/references/progress.md",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/references/progress.md",
+      "category": "codex-skill",
+      "source_bytes": 1436,
+      "backup_bytes": 1436,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/references/roadmap-ai-agent.md",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/references/roadmap-ai-agent.md",
+      "category": "codex-skill",
+      "source_bytes": 6010,
+      "backup_bytes": 6010,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/references/session-handoff.md",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/references/session-handoff.md",
+      "category": "codex-skill",
+      "source_bytes": 5316,
+      "backup_bytes": 5316,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/references/tasks-ai-agent.md",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/references/tasks-ai-agent.md",
+      "category": "codex-skill",
+      "source_bytes": 5722,
+      "backup_bytes": 5722,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/learning-mentor/references/tracks.md",
+      "source": "%USERPROFILE%/.codex/skills/learning-mentor/references/tracks.md",
+      "category": "codex-skill",
+      "source_bytes": 942,
+      "backup_bytes": 942,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/playwright/LICENSE.txt",
+      "source": "%USERPROFILE%/.codex/skills/playwright/LICENSE.txt",
+      "category": "codex-skill",
+      "source_bytes": 11552,
+      "backup_bytes": 11552,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/playwright/NOTICE.txt",
+      "source": "%USERPROFILE%/.codex/skills/playwright/NOTICE.txt",
+      "category": "codex-skill",
+      "source_bytes": 417,
+      "backup_bytes": 417,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/playwright/SKILL.md",
+      "source": "%USERPROFILE%/.codex/skills/playwright/SKILL.md",
+      "category": "codex-skill",
+      "source_bytes": 3918,
+      "backup_bytes": 3918,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/playwright/agents/openai.yaml",
+      "source": "%USERPROFILE%/.codex/skills/playwright/agents/openai.yaml",
+      "category": "codex-skill",
+      "source_bytes": 319,
+      "backup_bytes": 319,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/playwright/assets/playwright-small.svg",
+      "source": "%USERPROFILE%/.codex/skills/playwright/assets/playwright-small.svg",
+      "category": "codex-skill",
+      "source_bytes": 831,
+      "backup_bytes": 831,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/playwright/assets/playwright.png",
+      "source": "%USERPROFILE%/.codex/skills/playwright/assets/playwright.png",
+      "category": "codex-skill",
+      "source_bytes": 1730,
+      "backup_bytes": 1730,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/playwright/references/cli.md",
+      "source": "%USERPROFILE%/.codex/skills/playwright/references/cli.md",
+      "category": "codex-skill",
+      "source_bytes": 1979,
+      "backup_bytes": 1979,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/playwright/references/workflows.md",
+      "source": "%USERPROFILE%/.codex/skills/playwright/references/workflows.md",
+      "category": "codex-skill",
+      "source_bytes": 1959,
+      "backup_bytes": 1959,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/playwright/scripts/playwright_cli.sh",
+      "source": "%USERPROFILE%/.codex/skills/playwright/scripts/playwright_cli.sh",
+      "category": "codex-skill",
+      "source_bytes": 551,
+      "backup_bytes": 551,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/readonly-code-review/SKILL.md",
+      "source": "%USERPROFILE%/.codex/skills/readonly-code-review/SKILL.md",
+      "category": "codex-skill",
+      "source_bytes": 2980,
+      "backup_bytes": 2980,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/readonly-code-review/agents/openai.yaml",
+      "source": "%USERPROFILE%/.codex/skills/readonly-code-review/agents/openai.yaml",
+      "category": "codex-skill",
+      "source_bytes": 205,
+      "backup_bytes": 205,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/skills/yunxiao-reader/SKILL.md",
+      "source": "%USERPROFILE%/.codex/skills/yunxiao-reader/SKILL.md",
+      "category": "codex-skill",
+      "source_bytes": 2972,
+      "backup_bytes": 2972,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.agents/skills/gitlab-mr-review/SKILL.md",
+      "source": "%USERPROFILE%/.agents/skills/gitlab-mr-review/SKILL.md",
+      "category": "shared-skill",
+      "source_bytes": 8831,
+      "backup_bytes": 8831,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.claude/skills/gitlab-mr-review.md",
+      "source": "%USERPROFILE%/.claude/skills/gitlab-mr-review.md",
+      "category": "claude-skill",
+      "source_bytes": 8490,
+      "backup_bytes": 8490,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.claude/skills/gitlab-mr-review/skill.md",
+      "source": "%USERPROFILE%/.claude/skills/gitlab-mr-review/skill.md",
+      "category": "claude-skill",
+      "source_bytes": 8794,
+      "backup_bytes": 8794,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/rules/default.rules",
+      "source": "%USERPROFILE%/.codex/rules/default.rules",
+      "category": "command-allow-rule",
+      "source_bytes": 247,
+      "backup_bytes": 247,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/memory_summary.md",
+      "source": "%USERPROFILE%/.codex/memories/memory_summary.md",
+      "category": "memory-legacy",
+      "source_bytes": 11242,
+      "backup_bytes": 11242,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/MEMORY.md",
+      "source": "%USERPROFILE%/.codex/memories/MEMORY.md",
+      "category": "memory-legacy",
+      "source_bytes": 124697,
+      "backup_bytes": 124697,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/raw_memories.md",
+      "source": "%USERPROFILE%/.codex/memories/raw_memories.md",
+      "category": "memory-legacy",
+      "source_bytes": 149377,
+      "backup_bytes": 149377,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/extensions/ad_hoc/instructions.md",
+      "source": "%USERPROFILE%/.codex/memories/extensions/ad_hoc/instructions.md",
+      "category": "memory-legacy",
+      "source_bytes": 746,
+      "backup_bytes": 746,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/extensions/ad_hoc/notes/2026-10-30T17-34-47-method-component-comments.md",
+      "source": "%USERPROFILE%/.codex/memories/extensions/ad_hoc/notes/2026-10-30T17-34-47-method-component-comments.md",
+      "category": "memory-legacy",
+      "source_bytes": 839,
+      "backup_bytes": 839,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/extensions/ad_hoc/notes/20261010-144345-requirement-branch-convention.md",
+      "source": "%USERPROFILE%/.codex/memories/extensions/ad_hoc/notes/20261010-144345-requirement-branch-convention.md",
+      "category": "memory-legacy",
+      "source_bytes": 447,
+      "backup_bytes": 447,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/extensions/ad_hoc/notes/20261010-150922-requirement-git-mr-workflow.md",
+      "source": "%USERPROFILE%/.codex/memories/extensions/ad_hoc/notes/20261010-150922-requirement-git-mr-workflow.md",
+      "category": "memory-legacy",
+      "source_bytes": 1298,
+      "backup_bytes": 1298,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/extensions/ad_hoc/notes/20261010-152127-large-change-and-unclear-requirement-boundaries.md",
+      "source": "%USERPROFILE%/.codex/memories/extensions/ad_hoc/notes/20261010-152127-large-change-and-unclear-requirement-boundaries.md",
+      "category": "memory-legacy",
+      "source_bytes": 733,
+      "backup_bytes": 733,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/extensions/ad_hoc/notes/20261012-090407-keep-nonrequirement-docs-outside-repos.md",
+      "source": "%USERPROFILE%/.codex/memories/extensions/ad_hoc/notes/20261012-090407-keep-nonrequirement-docs-outside-repos.md",
+      "category": "memory-legacy",
+      "source_bytes": 534,
+      "backup_bytes": 534,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/extensions/ad_hoc/notes/20261013-122309-phantom-ui-project-names.md",
+      "source": "%USERPROFILE%/.codex/memories/extensions/ad_hoc/notes/20261013-122309-phantom-ui-project-names.md",
+      "category": "memory-legacy",
+      "source_bytes": 282,
+      "backup_bytes": 282,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/extensions/ad_hoc/notes/20261020-161333-desktop-document-output.md",
+      "source": "%USERPROFILE%/.codex/memories/extensions/ad_hoc/notes/20261020-161333-desktop-document-output.md",
+      "category": "memory-legacy",
+      "source_bytes": 459,
+      "backup_bytes": 459,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-08-21T06-47-18-t25T-mjp_recovery_performance_writing_cdn_and_device_help.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-08-21T06-47-18-t25T-mjp_recovery_performance_writing_cdn_and_device_help.md",
+      "category": "memory-legacy",
+      "source_bytes": 6227,
+      "backup_bytes": 6227,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-09-07T07-30-27-C8uE-health_management_cardiac_risk_and_acute_sore_throat.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-09-07T07-30-27-C8uE-health_management_cardiac_risk_and_acute_sore_throat.md",
+      "category": "memory-legacy",
+      "source_bytes": 6888,
+      "backup_bytes": 6888,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-09-21T02-52-41-GTBY-codex_multi_repo_projects_and_skill_creation.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-09-21T02-52-41-GTBY-codex_multi_repo_projects_and_skill_creation.md",
+      "category": "memory-legacy",
+      "source_bytes": 4637,
+      "backup_bytes": 4637,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-09-29T03-20-05-s7h1-org_selector_server_search_lazy_tree_single_select.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-09-29T03-20-05-s7h1-org_selector_server_search_lazy_tree_single_select.md",
+      "category": "memory-legacy",
+      "source_bytes": 6497,
+      "backup_bytes": 6497,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-09-29T09-06-31-zuXn-sales_analysis_api_doc_and_device_rank_display_fix.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-09-29T09-06-31-zuXn-sales_analysis_api_doc_and_device_rank_display_fix.md",
+      "category": "memory-legacy",
+      "source_bytes": 4042,
+      "backup_bytes": 4042,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-05T12-27-48-sDiX-codex_skills_peach_deepinfer_exploration_and_peach_install.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-05T12-27-48-sDiX-codex_skills_peach_deepinfer_exploration_and_peach_install.md",
+      "category": "memory-legacy",
+      "source_bytes": 7812,
+      "backup_bytes": 7812,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-06T14-06-51-001j-scan_open_door_device_audio_analysis.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-06T14-06-51-001j-scan_open_door_device_audio_analysis.md",
+      "category": "memory-legacy",
+      "source_bytes": 3527,
+      "backup_bytes": 3527,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-08T08-25-51-fP7r-frontend_multi_repo_architecture_personal_docs.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-08T08-25-51-fP7r-frontend_multi_repo_architecture_personal_docs.md",
+      "category": "memory-legacy",
+      "source_bytes": 4190,
+      "backup_bytes": 4190,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-08T08-28-58-JxwO-phantom_ui_multi_repo_analysis_local_codex_rules.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-08T08-28-58-JxwO-phantom_ui_multi_repo_analysis_local_codex_rules.md",
+      "category": "memory-legacy",
+      "source_bytes": 5366,
+      "backup_bytes": 5366,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-08T08-29-08-CG0V-frontend_project_bootstrap_local_docs.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-08T08-29-08-CG0V-frontend_project_bootstrap_local_docs.md",
+      "category": "memory-legacy",
+      "source_bytes": 3846,
+      "backup_bytes": 3846,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-08T08-29-37-DUEn-phantom_ui_global_local_codex_knowledge_base.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-08T08-29-37-DUEn-phantom_ui_global_local_codex_knowledge_base.md",
+      "category": "memory-legacy",
+      "source_bytes": 5217,
+      "backup_bytes": 5217,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-08T08-48-20-1KQE-status_code_oss_loading_and_cdn_cache_analysis.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-08T08-48-20-1KQE-status_code_oss_loading_and_cdn_cache_analysis.md",
+      "category": "memory-legacy",
+      "source_bytes": 6543,
+      "backup_bytes": 6543,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-09T03-20-59-I3J4-goods_image_preview_gesture_and_requirement_analysis.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-09T03-20-59-I3J4-goods_image_preview_gesture_and_requirement_analysis.md",
+      "category": "memory-legacy",
+      "source_bytes": 8328,
+      "backup_bytes": 8328,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-13T03-46-29-TQQs-ops_user_list_dom_table_height.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-13T03-46-29-TQQs-ops_user_list_dom_table_height.md",
+      "category": "memory-legacy",
+      "source_bytes": 3316,
+      "backup_bytes": 3316,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-14T05-58-45-r7ex-justso_11529_token_key_branch_recovery_and_star_lord_deploym.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-14T05-58-45-r7ex-justso_11529_token_key_branch_recovery_and_star_lord_deploym.md",
+      "category": "memory-legacy",
+      "source_bytes": 6450,
+      "backup_bytes": 6450,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-14T07-25-27-QNGb-calibration_image_el_image_race_fix.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-14T07-25-27-QNGb-calibration_image_el_image_race_fix.md",
+      "category": "memory-legacy",
+      "source_bytes": 4173,
+      "backup_bytes": 4173,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-15T06-46-43-p7TI-justso_11535_cross_project_promotion_goods_by_device.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-15T06-46-43-p7TI-justso_11535_cross_project_promotion_goods_by_device.md",
+      "category": "memory-legacy",
+      "source_bytes": 5735,
+      "backup_bytes": 5735,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-16T03-05-13-217s-gkd_zhihu_rule_guidance_target_mismatch.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-16T03-05-13-217s-gkd_zhihu_rule_guidance_target_mismatch.md",
+      "category": "memory-legacy",
+      "source_bytes": 3941,
+      "backup_bytes": 3941,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-19T02-25-40-HRV7-goods_combine_submit_loading.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-19T02-25-40-HRV7-goods_combine_submit_loading.md",
+      "category": "memory-legacy",
+      "source_bytes": 2885,
+      "backup_bytes": 2885,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-19T06-00-44-xFrD-fix_fourcorner_image_load_failure_interaction.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-19T06-00-44-xFrD-fix_fourcorner_image_load_failure_interaction.md",
+      "category": "memory-legacy",
+      "source_bytes": 2794,
+      "backup_bytes": 2794,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-21T03-16-03-Iphd-daily_journal_android_sqlite_startup_fix.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-21T03-16-03-Iphd-daily_journal_android_sqlite_startup_fix.md",
+      "category": "memory-legacy",
+      "source_bytes": 5784,
+      "backup_bytes": 5784,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-22T02-28-35-oQWy-phantom_ui_handle_record_safe_text_rendering.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-22T02-28-35-oQWy-phantom_ui_handle_record_safe_text_rendering.md",
+      "category": "memory-legacy",
+      "source_bytes": 2959,
+      "backup_bytes": 2959,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-22T05-54-17-3ufK-uniapp_refactor_analysis_and_before_after_comparison.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-22T05-54-17-3ufK-uniapp_refactor_analysis_and_before_after_comparison.md",
+      "category": "memory-legacy",
+      "source_bytes": 7120,
+      "backup_bytes": 7120,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-22T06-05-22-2fT9-phantom_ui_ops_contact_validation_and_user_action_layout.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-22T06-05-22-2fT9-phantom_ui_ops_contact_validation_and_user_action_layout.md",
+      "category": "memory-legacy",
+      "source_bytes": 4952,
+      "backup_bytes": 4952,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-22T10-29-23-iB1j-learning_mentor_status_imported_state_verification.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-22T10-29-23-iB1j-learning_mentor_status_imported_state_verification.md",
+      "category": "memory-legacy",
+      "source_bytes": 3514,
+      "backup_bytes": 3514,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-23T06-29-25-mkVh-justso_11494_point_creation_by_customer_miniapp_pc.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-23T06-29-25-mkVh-justso_11494_point_creation_by_customer_miniapp_pc.md",
+      "category": "memory-legacy",
+      "source_bytes": 6563,
+      "backup_bytes": 6563,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-26T07-53-43-iPsm-phantom_ui_ops_justso_11595_scan_code_preview_ui.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-26T07-53-43-iPsm-phantom_ui_ops_justso_11595_scan_code_preview_ui.md",
+      "category": "memory-legacy",
+      "source_bytes": 5099,
+      "backup_bytes": 5099,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-27T07-43-59-tBSQ-goods_record_websocket_pending_101_normal.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-27T07-43-59-tBSQ-goods_record_websocket_pending_101_normal.md",
+      "category": "memory-legacy",
+      "source_bytes": 2756,
+      "backup_bytes": 2756,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-27T10-26-15-rDLM-global_dept_path_filter_three_pages.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-27T10-26-15-rDLM-global_dept_path_filter_three_pages.md",
+      "category": "memory-legacy",
+      "source_bytes": 4232,
+      "backup_bytes": 4232,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-28T06-42-58-LBU0-phantom_ui_path_visibility_batch_migration_rebase.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-28T06-42-58-LBU0-phantom_ui_path_visibility_batch_migration_rebase.md",
+      "category": "memory-legacy",
+      "source_bytes": 10966,
+      "backup_bytes": 10966,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-28T08-07-36-hvYe-piece_219_contact_phone_calling_code_three_repos.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-28T08-07-36-hvYe-piece_219_contact_phone_calling_code_three_repos.md",
+      "category": "memory-legacy",
+      "source_bytes": 7433,
+      "backup_bytes": 7433,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-28T09-01-47-Ggkh-fix_mini_template_pagination_echo_presets.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-28T09-01-47-Ggkh-fix_mini_template_pagination_echo_presets.md",
+      "category": "memory-legacy",
+      "source_bytes": 2928,
+      "backup_bytes": 2928,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-29T06-03-42-qjWQ-service_exception_error_code_500.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-29T06-03-42-qjWQ-service_exception_error_code_500.md",
+      "category": "memory-legacy",
+      "source_bytes": 1169,
+      "backup_bytes": 1169,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/rollout_summaries/2026-10-30T03-17-32-pEtI-gpt_model_comparison_clash_verge_localhost_bypass.md",
+      "source": "%USERPROFILE%/.codex/memories/rollout_summaries/2026-10-30T03-17-32-pEtI-gpt_model_comparison_clash_verge_localhost_bypass.md",
+      "category": "memory-legacy",
+      "source_bytes": 4407,
+      "backup_bytes": 4407,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories/skills/requirement-git-mr-workflow/SKILL.md",
+      "source": "%USERPROFILE%/.codex/memories/skills/requirement-git-mr-workflow/SKILL.md",
+      "category": "memory-legacy",
+      "source_bytes": 3429,
+      "backup_bytes": 3429,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/memory_summary.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/memory_summary.md",
+      "category": "memory-v2",
+      "source_bytes": 9937,
+      "backup_bytes": 9937,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/extensions/ad_hoc/instructions.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/extensions/ad_hoc/instructions.md",
+      "category": "memory-v2",
+      "source_bytes": 746,
+      "backup_bytes": 746,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-08-21T06-47-18-t25T-user_task_history_technical_consumer_health_2026_10.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-08-21T06-47-18-t25T-user_task_history_technical_consumer_health_2026_10.md",
+      "category": "memory-v2",
+      "source_bytes": 8072,
+      "backup_bytes": 8072,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-09-07T07-30-27-C8uE-health_weight_loss_afib_and_acute_sore_throat.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-09-07T07-30-27-C8uE-health_weight_loss_afib_and_acute_sore_throat.md",
+      "category": "memory-v2",
+      "source_bytes": 4659,
+      "backup_bytes": 4659,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-05T12-27-48-sDiX-skills_yunxiao_reader_peach_project_research.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-05T12-27-48-sDiX-skills_yunxiao_reader_peach_project_research.md",
+      "category": "memory-v2",
+      "source_bytes": 2764,
+      "backup_bytes": 2764,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-13T03-46-29-TQQs-simplify_table_height_and_scroll_handling.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-13T03-46-29-TQQs-simplify_table_height_and_scroll_handling.md",
+      "category": "memory-v2",
+      "source_bytes": 1870,
+      "backup_bytes": 1870,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-16T03-05-13-217s-gkd_custom_rules_zhihu_weather_honor_android15.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-16T03-05-13-217s-gkd_custom_rules_zhihu_weather_honor_android15.md",
+      "category": "memory-v2",
+      "source_bytes": 2062,
+      "backup_bytes": 2062,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-21T03-16-03-Iphd-daily_journal_vue_capacitor_sqlite_query_fix.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-21T03-16-03-Iphd-daily_journal_vue_capacitor_sqlite_query_fix.md",
+      "category": "memory-v2",
+      "source_bytes": 2916,
+      "backup_bytes": 2916,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-22T02-28-35-oQWy-phantom_ui_handle_record_text_rendering.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-22T02-28-35-oQWy-phantom_ui_handle_record_text_rendering.md",
+      "category": "memory-v2",
+      "source_bytes": 986,
+      "backup_bytes": 986,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-22T05-54-17-3ufK-uniapp_refactor_analysis_and_before_after_comparison.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-22T05-54-17-3ufK-uniapp_refactor_analysis_and_before_after_comparison.md",
+      "category": "memory-v2",
+      "source_bytes": 2064,
+      "backup_bytes": 2064,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-22T10-29-23-iB1j-learning_mentor_plan_progress_imported_state_warning.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-22T10-29-23-iB1j-learning_mentor_plan_progress_imported_state_warning.md",
+      "category": "memory-v2",
+      "source_bytes": 1082,
+      "backup_bytes": 1082,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-26T07-53-43-iPsm-justso_11595_device_detail_scan_code_preview.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-26T07-53-43-iPsm-justso_11595_device_detail_scan_code_preview.md",
+      "category": "memory-v2",
+      "source_bytes": 1584,
+      "backup_bytes": 1584,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-27T10-26-15-rDLM-global_dept_path_display_filter.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-27T10-26-15-rDLM-global_dept_path_display_filter.md",
+      "category": "memory-v2",
+      "source_bytes": 975,
+      "backup_bytes": 975,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-28T06-42-58-LBU0-phantom_ui_ops_batch_hierarchy_migration_and_dept_path_displ.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-28T06-42-58-LBU0-phantom_ui_ops_batch_hierarchy_migration_and_dept_path_displ.md",
+      "category": "memory-v2",
+      "source_bytes": 5702,
+      "backup_bytes": 5702,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-28T08-07-36-hvYe-piece_219_contact_phone_calling_code_multi_repo.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-28T08-07-36-hvYe-piece_219_contact_phone_calling_code_multi_repo.md",
+      "category": "memory-v2",
+      "source_bytes": 1960,
+      "backup_bytes": 1960,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/memories_v2/rollout_summaries/2026-10-28T09-01-47-Ggkh-fix_vmtags_preset_pagination_display.md",
+      "source": "%USERPROFILE%/.codex/memories_v2/rollout_summaries/2026-10-28T09-01-47-Ggkh-fix_vmtags_preset_pagination_display.md",
+      "category": "memory-v2",
+      "source_bytes": 775,
+      "backup_bytes": 775,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/project-notes/hawkeye-frontend/ant/AGENTS.personal.md",
+      "source": "%USERPROFILE%/.codex/project-notes/hawkeye-frontend/ant/AGENTS.personal.md",
+      "category": "project-note",
+      "source_bytes": 1203,
+      "backup_bytes": 1203,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/project-notes/hawkeye-frontend/ant/docs/architecture.md",
+      "source": "%USERPROFILE%/.codex/project-notes/hawkeye-frontend/ant/docs/architecture.md",
+      "category": "project-note",
+      "source_bytes": 4293,
+      "backup_bytes": 4293,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/project-notes/hawkeye-frontend/hawkeye/AGENTS.personal.md",
+      "source": "%USERPROFILE%/.codex/project-notes/hawkeye-frontend/hawkeye/AGENTS.personal.md",
+      "category": "project-note",
+      "source_bytes": 1003,
+      "backup_bytes": 1003,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/project-notes/hawkeye-frontend/hawkeye/docs/architecture.md",
+      "source": "%USERPROFILE%/.codex/project-notes/hawkeye-frontend/hawkeye/docs/architecture.md",
+      "category": "project-note",
+      "source_bytes": 4220,
+      "backup_bytes": 4220,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/project-notes/hawkeye-frontend/hawkeye-southeast-asia/AGENTS.personal.md",
+      "source": "%USERPROFILE%/.codex/project-notes/hawkeye-frontend/hawkeye-southeast-asia/AGENTS.personal.md",
+      "category": "project-note",
+      "source_bytes": 1177,
+      "backup_bytes": 1177,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/project-notes/hawkeye-frontend/hawkeye-southeast-asia/docs/frontend-repository-map.md",
+      "source": "%USERPROFILE%/.codex/project-notes/hawkeye-frontend/hawkeye-southeast-asia/docs/frontend-repository-map.md",
+      "category": "project-note",
+      "source_bytes": 5645,
+      "backup_bytes": 5645,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/project-notes/hawkeye-frontend/hawkeye-southeast-asia/docs/production-test-micro-app-contract.md",
+      "source": "%USERPROFILE%/.codex/project-notes/hawkeye-frontend/hawkeye-southeast-asia/docs/production-test-micro-app-contract.md",
+      "category": "project-note",
+      "source_bytes": 4898,
+      "backup_bytes": 4898,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/home/.codex/project-knowledge/phantom-ui-suite/repository-map.md",
+      "source": "%USERPROFILE%/.codex/project-knowledge/phantom-ui-suite/repository-map.md",
+      "category": "project-knowledge",
+      "source_bytes": 5397,
+      "backup_bytes": 5397,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/ant/AGENTS.md",
+      "source": "%USERPROFILE%/Desktop/ant/AGENTS.md",
+      "category": "project-rule",
+      "source_bytes": 4446,
+      "backup_bytes": 4446,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/ant/CLAUDE.md",
+      "source": "%USERPROFILE%/Desktop/ant/CLAUDE.md",
+      "category": "project-rule",
+      "source_bytes": 6904,
+      "backup_bytes": 6904,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/hawkeye/AGENTS.md",
+      "source": "%USERPROFILE%/Desktop/hawkeye/AGENTS.md",
+      "category": "project-rule",
+      "source_bytes": 1515,
+      "backup_bytes": 1515,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/hawkeye/CLAUDE.md",
+      "source": "%USERPROFILE%/Desktop/hawkeye/CLAUDE.md",
+      "category": "project-rule",
+      "source_bytes": 7667,
+      "backup_bytes": 7667,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/hawkeye-southeast-asia/AGENTS.md",
+      "source": "%USERPROFILE%/Desktop/hawkeye-southeast-asia/AGENTS.md",
+      "category": "project-rule",
+      "source_bytes": 3690,
+      "backup_bytes": 3690,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/hawkeye-southeast-asia/CLAUDE.md",
+      "source": "%USERPROFILE%/Desktop/hawkeye-southeast-asia/CLAUDE.md",
+      "category": "project-rule",
+      "source_bytes": 3697,
+      "backup_bytes": 3697,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui/AGENTS.override.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui/AGENTS.override.md",
+      "category": "project-rule",
+      "source_bytes": 2283,
+      "backup_bytes": 2283,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui/CLAUDE.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui/CLAUDE.md",
+      "category": "project-rule",
+      "source_bytes": 7260,
+      "backup_bytes": 7260,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui/git-info-exclude.txt",
+      "source": "%USERPROFILE%/Desktop/phantom-ui/.git/info/exclude",
+      "category": "project-exclude-reference",
+      "source_bytes": 281,
+      "backup_bytes": 281,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-global/AGENTS.override.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-global/AGENTS.override.md",
+      "category": "project-rule",
+      "source_bytes": 2145,
+      "backup_bytes": 2145,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-global/CLAUDE.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-global/CLAUDE.md",
+      "category": "project-rule",
+      "source_bytes": 7260,
+      "backup_bytes": 7260,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-global/.codex-local/architecture/application.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-global/.codex-local/architecture/application.md",
+      "category": "project-local-note",
+      "source_bytes": 3885,
+      "backup_bytes": 3885,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-global/git-info-exclude.txt",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-global/.git/info/exclude",
+      "category": "project-exclude-reference",
+      "source_bytes": 324,
+      "backup_bytes": 324,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-ops/AGENTS.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-ops/AGENTS.md",
+      "category": "project-rule",
+      "source_bytes": 11237,
+      "backup_bytes": 11237,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-ops/AGENTS.override.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-ops/AGENTS.override.md",
+      "category": "project-rule",
+      "source_bytes": 2221,
+      "backup_bytes": 2221,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-ops/CLAUDE.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-ops/CLAUDE.md",
+      "category": "project-rule",
+      "source_bytes": 9298,
+      "backup_bytes": 9298,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-ops/git-info-exclude.txt",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-ops/.git/info/exclude",
+      "category": "project-exclude-reference",
+      "source_bytes": 259,
+      "backup_bytes": 259,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-ops-global/AGENTS.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-ops-global/AGENTS.md",
+      "category": "project-rule",
+      "source_bytes": 9260,
+      "backup_bytes": 9260,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-ops-global/AGENTS.override.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-ops-global/AGENTS.override.md",
+      "category": "project-rule",
+      "source_bytes": 2132,
+      "backup_bytes": 2132,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-ops-global/CLAUDE.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-ops-global/CLAUDE.md",
+      "category": "project-rule",
+      "source_bytes": 9298,
+      "backup_bytes": 9298,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-ops-global/.codex-local/architecture/ops-global.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-ops-global/.codex-local/architecture/ops-global.md",
+      "category": "project-local-note",
+      "source_bytes": 3046,
+      "backup_bytes": 3046,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-ops-global/.codex-local/architecture/repository-map.md",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-ops-global/.codex-local/architecture/repository-map.md",
+      "category": "project-local-note",
+      "source_bytes": 3968,
+      "backup_bytes": 3968,
+      "status": "byte-preserved",
+      "redactions": {}
+    },
+    {
+      "path": "snapshot/projects/phantom-ui-ops-global/git-info-exclude.txt",
+      "source": "%USERPROFILE%/Desktop/phantom-ui-ops-global/.git/info/exclude",
+      "category": "project-exclude-reference",
+      "source_bytes": 324,
+      "backup_bytes": 324,
+      "status": "byte-preserved",
+      "redactions": {}
+    }
+  ]
+}
